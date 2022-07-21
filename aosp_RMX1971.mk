@@ -4,8 +4,8 @@
 # SPDX-License-Identifer: Apache-2.0
 #
 
-# Inherit some common AEX stuff.
-$(call inherit-product, vendor/aosp/config/common.mk)
+# Inherit some common Elixir stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Inherit from RMX1971 device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -21,7 +21,11 @@ PRODUCT_MANUFACTURER := Realme
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_USE_PIXEL_CHARGER := true
 TARGET_USES_BLUR := true
-
+IS_PHONE := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
+TARGET_INCLUDE_STOCK_ACORE := false
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
 
 PRODUCT_GMS_CLIENTID_BASE := android-realme
 
