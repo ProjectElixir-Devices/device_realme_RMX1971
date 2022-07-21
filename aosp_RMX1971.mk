@@ -39,3 +39,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Official
 CUSTOM_BUILD_TYPE := OFFICIAL
+
+# Lawnchair Launcher
+FORCE_LAWNCHAIR := true
