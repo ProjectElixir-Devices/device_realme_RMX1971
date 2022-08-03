@@ -9,7 +9,7 @@ rm -rf device/realme/sdm710-common && git clone https://github.com/ProjectElixir
 
 echo 'Cloning Kernel tree'
 # Kernel Tree
-rm -rf kernel/realme/sdm710 && git clone https://gitlab.com/kssrao13882/kernel_realme_sdm710-Nexus.git -b 12 kernel/realme/sdm710
+rm -rf kernel/realme/sdm710 && git clone https://gitlab.com/kssrao13882/kernel_realme_sdm710-kharame.git -b 12 kernel/realme/sdm710
 
 echo 'Cloning Vendor tree'
 # Vendor Tree
