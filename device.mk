@@ -41,6 +41,12 @@ PRODUCT_COPY_FILES += \
 # Device init scripts
 PRODUCT_PACKAGES += \
     init.camera_firmware.rc
+
+# Keymaster
+PRODUCT_PACKAGES += \
+    android.hardware.keymaster@4.0-impl \
+    android.hardware.keymaster@4.0-service
+
 # Fingerprint
 PRODUCT_PACKAGES += \
     vendor.oppo.hardware.biometrics.fingerprint@2.1
