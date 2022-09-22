@@ -1,0 +1,5 @@
+device/realme/
+kernel/realme/
+vendor/realme/
+prebuilts/clang/host/linux-x86/clang-proton
+hardware/qcom-caf/sdm845/
