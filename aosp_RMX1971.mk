@@ -44,3 +44,6 @@ ELIXIR_BUILD_TYPE := OFFICIAL
 
 # Lawnchair Launcher
 #FORCE_LAWNCHAIR := true
+
+# AOSP Dialer
+FORCE_AOSP_DIALER := true
